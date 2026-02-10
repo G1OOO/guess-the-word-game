@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>guess the word game</h1>
+        <div class="hangman-display">
+            <p>Mistakes: <span id="mistakes">0</span> / 6</p>
+        </div>
+        <div class="word-display" id="wordDisplay">_ _ _ _ _</div>
+        <div class="keyboard" id="keyboard"></div>
+        <button class="reset-btn" onclick="resetGame()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
